@@ -13,7 +13,7 @@ import java.util.function.Function;
 
 public class BasePage {
 
-    public static WebElement webAction(final By locator) {
+    public static WebElement webAction(By locator) {
 
 
         Wait<WebDriver> wait = new FluentWait<WebDriver>(SharedSD.getDriver())
